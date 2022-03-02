@@ -1,0 +1,11 @@
+# The past period of time, starting each minute, that is considered to search for at least `Window` minutes of LAN (ethernet)  uptime
+# It is measured in minutes.
+# The program will wait this time before starting to make decisions.
+Period = 3
+
+# The number of minutes in the `Period` of time that are necessary to have been "up" in order to avoid the sequence of commands to run. 
+Window = 1
+
+# The commands to run 
+Commands = [["ls", "-alrt"], ["sudo", "/bin/systemctl", "stop", "myservice"]]
+

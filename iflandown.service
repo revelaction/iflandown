@@ -1,0 +1,14 @@
+[Unit]
+Description=iflandown daemon
+After=network.target 
+
+[Service]
+User=<user>
+Group=<user>
+
+Type=simple
+WorkingDirectory=/home/<user>
+ExecStart=/home/<user>/bin/iflandown 
+
+[Install]
+WantedBy=multi-user.target
