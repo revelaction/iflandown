@@ -8,7 +8,7 @@ All/most linux devices should work. Tested on amd64, Raspberry Pi, odroid
 ## Why
 
 You can use `iflandown` to avoid filesystem corruption in your rapsberry
-Pis, when the are connected to an Uninterruptible Power Supply (UPS). 
+Pis, when they are connected to an Uninterruptible Power Supply (UPS). 
 `iflandown` can safely stop the programs running and shutdown the Pi before it
 runs beyond the UPS time limit, avoiding thus risk of sd card corruption, in
 case of a too long power outage.
