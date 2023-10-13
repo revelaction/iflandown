@@ -31,7 +31,7 @@ of time `Period`, `iflandown` executes the configured commands.
 
 Edit the `iflandown.toml` file with your preferences:
 
-```
+```toml
 # The past period of time, starting each minute, that is considered to search
 # for at least `Window` minutes of LAN (ethernet) uptime 
 #
@@ -57,13 +57,13 @@ Commands = [["ls", "-alrt"], ["sudo", "/bin/systemctl", "stop", "myservice"]]
 
 And run the command in the same directory as the `iflandown.toml` file:
 
-```
+```console
 iflandown
 ```
 
 To run the commands without checks (to test the commands, permissions), run:
 
-```
+```console
 iflandown --nocheck
 ```
 
