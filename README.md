@@ -33,6 +33,7 @@ If your system has a supported version of Go, you can build from source
 
 ```console
 go install github.com/revelaction/idlandown@latest
+```
 
 ## Usage
 
