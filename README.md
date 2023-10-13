@@ -25,6 +25,15 @@ serves as the detection feature.
 If a minimum of uptime minutes `Window` is not reached inside a defined period
 of time `Period`, `iflandown` executes the configured commands.
 
+# Installation
+
+On Linux, macOS, and FreeBSD and Windows you can use the [pre-built binaries](https://github.com/revelaction/iflandown/releases/) 
+
+If your system has a supported version of Go, you can build from source
+
+```console
+go install github.com/revelaction/idlandown@latest
+
 ## Usage
 
 Edit the `iflandown.toml` file with your preferences:
