@@ -1,4 +1,6 @@
-<p align="center"><img alt="kind" src="./data/logo.png"/></p>
+
+<p align="center"><img alt="kind" src="logo.png"/></p>
+
 ## iflandown
 
 `iflandown` runs commands after the wired LAN link is down for a given amount
