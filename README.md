@@ -1,8 +1,6 @@
 
 <p align="center"><img alt="iflandown" src="logo.png"/></p>
 
-## iflandown
-
 `iflandown` is a deamon that runs commands after the wired LAN link is down for a given amount
 of time.
 
