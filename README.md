@@ -1,5 +1,5 @@
 
-<p align="center"><img alt="kind" src="logo.png"/></p>
+<p align="center"><img alt="iflandown" src="logo.png"/></p>
 
 ## iflandown
 
