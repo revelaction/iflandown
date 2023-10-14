@@ -1,7 +1,7 @@
 
 <p align="center"><img alt="iflandown" src="logo.png"/></p>
 
-`iflandown` is a deamon that runs commands after the wired LAN link is down for a given amount
+`iflandown` is a deamon that monitors the LAN link and runs commands if it is down for a given amount
 of time.
 
 All/most linux devices should work. Tested on amd64, Raspberry Pi, odroid 
