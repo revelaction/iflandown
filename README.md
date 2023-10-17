@@ -1,6 +1,9 @@
 
 <p align="center"><img alt="iflandown" src="logo.png"/></p>
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/revelaction/iflandown)](https://goreportcard.com/report/github.com/revelaction/iflandown)
+
+
 `iflandown` is a deamon that monitors the LAN link and runs commands if it is down for a given amount
 of time.
 
